@@ -16,4 +16,4 @@ fixed-point precision, pipeline stages can be configured.
 ## TODO
 1. Add pipeline valid signal
 2. Support other cordic calculations
-3. ~~~Support 0 ~ 360 degrees~~~
+3. ~~Support 0 ~ 360 degrees~~
