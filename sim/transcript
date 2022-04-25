@@ -1,0 +1,1242 @@
+# Reading C:/modeltech64_2019.2/tcl/vsim/pref.tcl
+# //  ModelSim SE-64 2019.2 Apr 17 2019
+# //
+# //  Copyright 1991-2019 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# OpenFile C:/Users/tongy/OneDrive/Hardware/Chisel/myprj/Cordic/sim/Cordic.mpf
+# Loading project Cordic
+# Compile of Rotator.v was successful.
+# Compile of Rotator_TB.v was successful.
+# Compile of CordicComputer_TB.v was successful.
+# Compile of CordicComputer.v was successful.
+# 4 compiles, 0 failed with no errors.
+restart
+# No Design Loaded!
+
+vsim -voptargs=+acc work.CordicComputer_TB
+# vsim -voptargs="+acc" work.CordicComputer_TB 
+# Start time: 11:40:55 on Apr 25,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.CordicComputer_TB(fast)
+# Loading work.CordicComputer(fast)
+# Loading work.Rotator(fast)
+# Loading work.Rotator_1(fast)
+# Loading work.Rotator_2(fast)
+# Loading work.Rotator_3(fast)
+# Loading work.Rotator_4(fast)
+# Loading work.Rotator_5(fast)
+# Loading work.Rotator_6(fast)
+# Loading work.Rotator_7(fast)
+# Loading work.Rotator_8(fast)
+# Loading work.Rotator_9(fast)
+# Loading work.Rotator_10(fast)
+# Loading work.Rotator_11(fast)
+# Loading work.Rotator_12(fast)
+# Loading work.Rotator_13(fast)
+# Loading work.Rotator_14(fast)
+# Loading work.Rotator_15(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (20) does not match connection size (18) for port 'io_in_a'. The port definition is at: C:/Users/tongy/OneDrive/Hardware/Chisel/myprj/Cordic/verilog/CordicComputer.v(1739).
+#    Time: 0 ns  Iteration: 0  Instance: /CordicComputer_TB/uut File: C:/Users/tongy/OneDrive/Hardware/Chisel/myprj/Cordic/sim/CordicComputer_TB.v Line: 37
+add wave -position insertpoint  \
+sim:/CordicComputer_TB/uut/clock \
+sim:/CordicComputer_TB/uut/reset \
+sim:/CordicComputer_TB/uut/io_in_a \
+sim:/CordicComputer_TB/uut/io_out_s \
+sim:/CordicComputer_TB/uut/io_out_c \
+sim:/CordicComputer_TB/uut/rotator_0_clock \
+sim:/CordicComputer_TB/uut/rotator_0_reset \
+sim:/CordicComputer_TB/uut/rotator_0_io_in_a \
+sim:/CordicComputer_TB/uut/rotator_0_io_out_x \
+sim:/CordicComputer_TB/uut/rotator_0_io_out_y \
+sim:/CordicComputer_TB/uut/rotator_0_io_out_a \
+sim:/CordicComputer_TB/uut/rotator_clock \
+sim:/CordicComputer_TB/uut/rotator_reset \
+sim:/CordicComputer_TB/uut/rotator_io_in_x \
+sim:/CordicComputer_TB/uut/rotator_io_in_y \
+sim:/CordicComputer_TB/uut/rotator_io_in_a \
+sim:/CordicComputer_TB/uut/rotator_io_out_x \
+sim:/CordicComputer_TB/uut/rotator_io_out_y \
+sim:/CordicComputer_TB/uut/rotator_io_out_a \
+sim:/CordicComputer_TB/uut/rotator_1_clock \
+sim:/CordicComputer_TB/uut/rotator_1_reset \
+sim:/CordicComputer_TB/uut/rotator_1_io_in_x \
+sim:/CordicComputer_TB/uut/rotator_1_io_in_y \
+sim:/CordicComputer_TB/uut/rotator_1_io_in_a \
+sim:/CordicComputer_TB/uut/rotator_1_io_out_x \
+sim:/CordicComputer_TB/uut/rotator_1_io_out_y \
+sim:/CordicComputer_TB/uut/rotator_1_io_out_a \
+sim:/CordicComputer_TB/uut/rotator_2_clock \
+sim:/CordicComputer_TB/uut/rotator_2_reset \
+sim:/CordicComputer_TB/uut/rotator_2_io_in_x \
+sim:/CordicComputer_TB/uut/rotator_2_io_in_y \
+sim:/CordicComputer_TB/uut/rotator_2_io_in_a \
+sim:/CordicComputer_TB/uut/rotator_2_io_out_x \
+sim:/CordicComputer_TB/uut/rotator_2_io_out_y \
+sim:/CordicComputer_TB/uut/rotator_2_io_out_a \
+sim:/CordicComputer_TB/uut/rotator_3_clock \
+sim:/CordicComputer_TB/uut/rotator_3_reset \
+sim:/CordicComputer_TB/uut/rotator_3_io_in_x \
+sim:/CordicComputer_TB/uut/rotator_3_io_in_y \
+sim:/CordicComputer_TB/uut/rotator_3_io_in_a \
+sim:/CordicComputer_TB/uut/rotator_3_io_out_x \
+sim:/CordicComputer_TB/uut/rotator_3_io_out_y \
+sim:/CordicComputer_TB/uut/rotator_3_io_out_a \
+sim:/CordicComputer_TB/uut/rotator_4_clock \
+sim:/CordicComputer_TB/uut/rotator_4_reset \
+sim:/CordicComputer_TB/uut/rotator_4_io_in_x \
+sim:/CordicComputer_TB/uut/rotator_4_io_in_y \
+sim:/CordicComputer_TB/uut/rotator_4_io_in_a \
+sim:/CordicComputer_TB/uut/rotator_4_io_out_x \
+sim:/CordicComputer_TB/uut/rotator_4_io_out_y \
+sim:/CordicComputer_TB/uut/rotator_4_io_out_a \
+sim:/CordicComputer_TB/uut/rotator_5_clock \
+sim:/CordicComputer_TB/uut/rotator_5_reset \
+sim:/CordicComputer_TB/uut/rotator_5_io_in_x \
+sim:/CordicComputer_TB/uut/rotator_5_io_in_y \
+sim:/CordicComputer_TB/uut/rotator_5_io_in_a \
+sim:/CordicComputer_TB/uut/rotator_5_io_out_x \
+sim:/CordicComputer_TB/uut/rotator_5_io_out_y \
+sim:/CordicComputer_TB/uut/rotator_5_io_out_a \
+sim:/CordicComputer_TB/uut/rotator_6_clock \
+sim:/CordicComputer_TB/uut/rotator_6_reset \
+sim:/CordicComputer_TB/uut/rotator_6_io_in_x \
+sim:/CordicComputer_TB/uut/rotator_6_io_in_y \
+sim:/CordicComputer_TB/uut/rotator_6_io_in_a \
+sim:/CordicComputer_TB/uut/rotator_6_io_out_x \
+sim:/CordicComputer_TB/uut/rotator_6_io_out_y \
+sim:/CordicComputer_TB/uut/rotator_6_io_out_a \
+sim:/CordicComputer_TB/uut/rotator_7_clock \
+sim:/CordicComputer_TB/uut/rotator_7_reset \
+sim:/CordicComputer_TB/uut/rotator_7_io_in_x \
+sim:/CordicComputer_TB/uut/rotator_7_io_in_y \
+sim:/CordicComputer_TB/uut/rotator_7_io_in_a \
+sim:/CordicComputer_TB/uut/rotator_7_io_out_x \
+sim:/CordicComputer_TB/uut/rotator_7_io_out_y \
+sim:/CordicComputer_TB/uut/rotator_7_io_out_a \
+sim:/CordicComputer_TB/uut/rotator_8_clock \
+sim:/CordicComputer_TB/uut/rotator_8_reset \
+sim:/CordicComputer_TB/uut/rotator_8_io_in_x \
+sim:/CordicComputer_TB/uut/rotator_8_io_in_y \
+sim:/CordicComputer_TB/uut/rotator_8_io_in_a \
+sim:/CordicComputer_TB/uut/rotator_8_io_out_x \
+sim:/CordicComputer_TB/uut/rotator_8_io_out_y \
+sim:/CordicComputer_TB/uut/rotator_8_io_out_a \
+sim:/CordicComputer_TB/uut/rotator_9_clock \
+sim:/CordicComputer_TB/uut/rotator_9_reset \
+sim:/CordicComputer_TB/uut/rotator_9_io_in_x \
+sim:/CordicComputer_TB/uut/rotator_9_io_in_y \
+sim:/CordicComputer_TB/uut/rotator_9_io_in_a \
+sim:/CordicComputer_TB/uut/rotator_9_io_out_x \
+sim:/CordicComputer_TB/uut/rotator_9_io_out_y \
+sim:/CordicComputer_TB/uut/rotator_9_io_out_a \
+sim:/CordicComputer_TB/uut/rotator_10_clock \
+sim:/CordicComputer_TB/uut/rotator_10_reset \
+sim:/CordicComputer_TB/uut/rotator_10_io_in_x \
+sim:/CordicComputer_TB/uut/rotator_10_io_in_y \
+sim:/CordicComputer_TB/uut/rotator_10_io_in_a \
+sim:/CordicComputer_TB/uut/rotator_10_io_out_x \
+sim:/CordicComputer_TB/uut/rotator_10_io_out_y \
+sim:/CordicComputer_TB/uut/rotator_10_io_out_a \
+sim:/CordicComputer_TB/uut/rotator_11_clock \
+sim:/CordicComputer_TB/uut/rotator_11_reset \
+sim:/CordicComputer_TB/uut/rotator_11_io_in_x \
+sim:/CordicComputer_TB/uut/rotator_11_io_in_y \
+sim:/CordicComputer_TB/uut/rotator_11_io_in_a \
+sim:/CordicComputer_TB/uut/rotator_11_io_out_x \
+sim:/CordicComputer_TB/uut/rotator_11_io_out_y \
+sim:/CordicComputer_TB/uut/rotator_11_io_out_a \
+sim:/CordicComputer_TB/uut/rotator_12_clock \
+sim:/CordicComputer_TB/uut/rotator_12_reset \
+sim:/CordicComputer_TB/uut/rotator_12_io_in_x \
+sim:/CordicComputer_TB/uut/rotator_12_io_in_y \
+sim:/CordicComputer_TB/uut/rotator_12_io_in_a \
+sim:/CordicComputer_TB/uut/rotator_12_io_out_x \
+sim:/CordicComputer_TB/uut/rotator_12_io_out_y \
+sim:/CordicComputer_TB/uut/rotator_12_io_out_a \
+sim:/CordicComputer_TB/uut/rotator_13_clock \
+sim:/CordicComputer_TB/uut/rotator_13_reset \
+sim:/CordicComputer_TB/uut/rotator_13_io_in_x \
+sim:/CordicComputer_TB/uut/rotator_13_io_in_y \
+sim:/CordicComputer_TB/uut/rotator_13_io_in_a \
+sim:/CordicComputer_TB/uut/rotator_13_io_out_x \
+sim:/CordicComputer_TB/uut/rotator_13_io_out_y \
+sim:/CordicComputer_TB/uut/rotator_13_io_out_a \
+sim:/CordicComputer_TB/uut/rotator_14_clock \
+sim:/CordicComputer_TB/uut/rotator_14_reset \
+sim:/CordicComputer_TB/uut/rotator_14_io_in_x \
+sim:/CordicComputer_TB/uut/rotator_14_io_in_y \
+sim:/CordicComputer_TB/uut/rotator_14_io_in_a \
+sim:/CordicComputer_TB/uut/rotator_14_io_out_x \
+sim:/CordicComputer_TB/uut/rotator_14_io_out_y \
+sim:/CordicComputer_TB/uut/a \
+sim:/CordicComputer_TB/uut/_GEN_2 \
+sim:/CordicComputer_TB/uut/_GEN_6
+run 1us
+# Compile of Rotator.v was successful.
+# Compile of Rotator_TB.v was successful.
+# Compile of CordicComputer_TB.v was successful.
+# Compile of CordicComputer.v was successful.
+# 4 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.CordicComputer_TB(fast)
+# Loading work.CordicComputer(fast)
+# Loading work.Rotator(fast)
+# Loading work.Rotator_1(fast)
+# Loading work.Rotator_2(fast)
+# Loading work.Rotator_3(fast)
+# Loading work.Rotator_4(fast)
+# Loading work.Rotator_5(fast)
+# Loading work.Rotator_6(fast)
+# Loading work.Rotator_7(fast)
+# Loading work.Rotator_8(fast)
+# Loading work.Rotator_9(fast)
+# Loading work.Rotator_10(fast)
+# Loading work.Rotator_11(fast)
+# Loading work.Rotator_12(fast)
+# Loading work.Rotator_13(fast)
+# Loading work.Rotator_14(fast)
+# Loading work.Rotator_15(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (20) does not match connection size (18) for port 'io_in_a'. The port definition is at: C:/Users/tongy/OneDrive/Hardware/Chisel/myprj/Cordic/verilog/CordicComputer.v(1739).
+#    Time: 0 ns  Iteration: 0  Instance: /CordicComputer_TB/uut File: C:/Users/tongy/OneDrive/Hardware/Chisel/myprj/Cordic/sim/CordicComputer_TB.v Line: 37
+run 1us
+# Compile of Rotator.v was successful.
+# Compile of Rotator_TB.v was successful.
+# Compile of CordicComputer_TB.v was successful.
+# Compile of CordicComputer.v was successful.
+# 4 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.CordicComputer_TB(fast)
+# Loading work.CordicComputer(fast)
+# Loading work.Rotator(fast)
+# Loading work.Rotator_1(fast)
+# Loading work.Rotator_2(fast)
+# Loading work.Rotator_3(fast)
+# Loading work.Rotator_4(fast)
+# Loading work.Rotator_5(fast)
+# Loading work.Rotator_6(fast)
+# Loading work.Rotator_7(fast)
+# Loading work.Rotator_8(fast)
+# Loading work.Rotator_9(fast)
+# Loading work.Rotator_10(fast)
+# Loading work.Rotator_11(fast)
+# Loading work.Rotator_12(fast)
+# Loading work.Rotator_13(fast)
+# Loading work.Rotator_14(fast)
+# Loading work.Rotator_15(fast)
+run 1us
+# Causality operation skipped due to absence of debug database file
+# Compile of Rotator.v was successful.
+# Compile of Rotator_TB.v was successful.
+# Compile of CordicComputer_TB.v was successful.
+# Compile of CordicComputer.v was successful.
+# 4 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.CordicComputer_TB(fast)
+# Loading work.CordicComputer(fast)
+# Loading work.Rotator(fast)
+# Loading work.Rotator_1(fast)
+# Loading work.Rotator_2(fast)
+# Loading work.Rotator_3(fast)
+# Loading work.Rotator_4(fast)
+# Loading work.Rotator_5(fast)
+# Loading work.Rotator_6(fast)
+# Loading work.Rotator_7(fast)
+# Loading work.Rotator_8(fast)
+# Loading work.Rotator_9(fast)
+# Loading work.Rotator_10(fast)
+# Loading work.Rotator_11(fast)
+# Loading work.Rotator_12(fast)
+# Loading work.Rotator_13(fast)
+# Loading work.Rotator_14(fast)
+# Loading work.Rotator_15(fast)
+run 1us
+add wave -position insertpoint  \
+sim:/CordicComputer_TB/sin \
+sim:/CordicComputer_TB/cos
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading work.CordicComputer_TB(fast)
+# Loading work.CordicComputer(fast)
+# Loading work.Rotator(fast)
+# Loading work.Rotator_1(fast)
+# Loading work.Rotator_2(fast)
+# Loading work.Rotator_3(fast)
+# Loading work.Rotator_4(fast)
+# Loading work.Rotator_5(fast)
+# Loading work.Rotator_6(fast)
+# Loading work.Rotator_7(fast)
+# Loading work.Rotator_8(fast)
+# Loading work.Rotator_9(fast)
+# Loading work.Rotator_10(fast)
+# Loading work.Rotator_11(fast)
+# Loading work.Rotator_12(fast)
+# Loading work.Rotator_13(fast)
+# Loading work.Rotator_14(fast)
+# Loading work.Rotator_15(fast)
+run 1us
+# Compile of Rotator.v was successful.
+# Compile of Rotator_TB.v was successful.
+# Compile of CordicComputer_TB.v was successful.
+# Compile of CordicComputer.v was successful.
+# 4 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.CordicComputer_TB(fast)
+# Loading work.CordicComputer(fast)
+# Loading work.Rotator(fast)
+# Loading work.Rotator_1(fast)
+# Loading work.Rotator_2(fast)
+# Loading work.Rotator_3(fast)
+# Loading work.Rotator_4(fast)
+# Loading work.Rotator_5(fast)
+# Loading work.Rotator_6(fast)
+# Loading work.Rotator_7(fast)
+# Loading work.Rotator_8(fast)
+# Loading work.Rotator_9(fast)
+# Loading work.Rotator_10(fast)
+# Loading work.Rotator_11(fast)
+# Loading work.Rotator_12(fast)
+# Loading work.Rotator_13(fast)
+# Loading work.Rotator_14(fast)
+# Loading work.Rotator_15(fast)
+run 1us
+# Compile of Rotator.v was successful.
+# Compile of Rotator_TB.v was successful.
+# Compile of CordicComputer_TB.v was successful.
+# Compile of CordicComputer.v was successful.
+# 4 compiles, 0 failed with no errors.
+# Compile of Rotator.v was successful.
+# Compile of Rotator_TB.v was successful.
+# Compile of CordicComputer_TB.v was successful.
+# Compile of CordicComputer.v was successful.
+# 4 compiles, 0 failed with no errors.
+# Compile of Rotator.v was successful.
+# Compile of Rotator_TB.v was successful.
+# Compile of CordicComputer_TB.v was successful.
+# Compile of CordicComputer.v was successful.
+# 4 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.CordicComputer_TB(fast)
+# Loading work.CordicComputer(fast)
+# Loading work.Rotator(fast)
+# Loading work.Rotator_1(fast)
+# Loading work.Rotator_2(fast)
+# Loading work.Rotator_3(fast)
+# Loading work.Rotator_4(fast)
+# Loading work.Rotator_5(fast)
+# Loading work.Rotator_6(fast)
+# Loading work.Rotator_7(fast)
+# Loading work.Rotator_8(fast)
+# Loading work.Rotator_9(fast)
+# Loading work.Rotator_10(fast)
+# Loading work.Rotator_11(fast)
+# Loading work.Rotator_12(fast)
+# Loading work.Rotator_13(fast)
+# Loading work.Rotator_14(fast)
+# Loading work.Rotator_15(fast)
+run 1us
+# Compile of Rotator.v was successful.
+# Compile of Rotator_TB.v was successful.
+# Compile of CordicComputer_TB.v was successful.
+# Compile of CordicComputer.v was successful.
+# 4 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Error (suppressible): C:/Users/tongy/OneDrive/Hardware/Chisel/myprj/Cordic/sim/CordicComputer_TB.v(22): (vopt-7063) Failed to find 'printf' in hierarchical name 'printf'.
+#         Region: CordicComputer_TB
+# Optimization failed
+run 1us
+# No Design Loaded!
+restart
+# No Design Loaded!
+
+# Compile of Rotator.v was successful.
+# Compile of Rotator_TB.v was successful.
+# Compile of CordicComputer_TB.v was successful.
+# Compile of CordicComputer.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.CordicComputer_TB
+# vsim -voptargs="+acc" work.CordicComputer_TB 
+# Start time: 11:40:55 on Apr 25,2022
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error (suppressible): C:/Users/tongy/OneDrive/Hardware/Chisel/myprj/Cordic/sim/CordicComputer_TB.v(22): (vopt-7063) Failed to find 'printf' in hierarchical name 'printf'.
+#         Region: CordicComputer_TB
+# Optimization failed
+# Error loading design
+# End time: 14:33:49 on Apr 25,2022, Elapsed time: 2:52:54
+# Errors: 2, Warnings: 1
+# Compile of Rotator.v was successful.
+# Compile of Rotator_TB.v was successful.
+# Compile of CordicComputer_TB.v was successful.
+# Compile of CordicComputer.v was successful.
+# 4 compiles, 0 failed with no errors.
+restart
+# No Design Loaded!
+
+vsim -voptargs=+acc work.CordicComputer
+# vsim -voptargs="+acc" work.CordicComputer 
+# Start time: 14:34:22 on Apr 25,2022
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.CordicComputer(fast)
+# Loading work.Rotator(fast)
+# Loading work.Rotator_1(fast)
+# Loading work.Rotator_2(fast)
+# Loading work.Rotator_3(fast)
+# Loading work.Rotator_4(fast)
+# Loading work.Rotator_5(fast)
+# Loading work.Rotator_6(fast)
+# Loading work.Rotator_7(fast)
+# Loading work.Rotator_8(fast)
+# Loading work.Rotator_9(fast)
+# Loading work.Rotator_10(fast)
+# Loading work.Rotator_11(fast)
+# Loading work.Rotator_12(fast)
+# Loading work.Rotator_13(fast)
+# Loading work.Rotator_14(fast)
+# Loading work.Rotator_15(fast)
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/clock'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/reset'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/io_in_a'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/io_out_s'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/io_out_c'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/sin'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/cos'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_0_clock'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_0_reset'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_0_io_in_a'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_0_io_out_x'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_0_io_out_y'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_0_io_out_a'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_clock'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_reset'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_io_in_x'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_io_in_y'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_io_in_a'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_io_out_x'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_io_out_y'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_io_out_a'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_1_clock'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_1_reset'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_1_io_in_x'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_1_io_in_y'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_1_io_in_a'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_1_io_out_x'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_1_io_out_y'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_1_io_out_a'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_2_clock'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_2_reset'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_2_io_in_x'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_2_io_in_y'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_2_io_in_a'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_2_io_out_x'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_2_io_out_y'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_2_io_out_a'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_3_clock'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_3_reset'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_3_io_in_x'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_3_io_in_y'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_3_io_in_a'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_3_io_out_x'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_3_io_out_y'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_3_io_out_a'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_4_clock'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_4_reset'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_4_io_in_x'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_4_io_in_y'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_4_io_in_a'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_4_io_out_x'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_4_io_out_y'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_4_io_out_a'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_5_clock'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_5_reset'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_5_io_in_x'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_5_io_in_y'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_5_io_in_a'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_5_io_out_x'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_5_io_out_y'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_5_io_out_a'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_6_clock'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_6_reset'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_6_io_in_x'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_6_io_in_y'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_6_io_in_a'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_6_io_out_x'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_6_io_out_y'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_6_io_out_a'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_7_clock'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_7_reset'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_7_io_in_x'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_7_io_in_y'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_7_io_in_a'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_7_io_out_x'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_7_io_out_y'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_7_io_out_a'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_8_clock'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_8_reset'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_8_io_in_x'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_8_io_in_y'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_8_io_in_a'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_8_io_out_x'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_8_io_out_y'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_8_io_out_a'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_9_clock'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_9_reset'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_9_io_in_x'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_9_io_in_y'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_9_io_in_a'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_9_io_out_x'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_9_io_out_y'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_9_io_out_a'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_10_clock'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_10_reset'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_10_io_in_x'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_10_io_in_y'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_10_io_in_a'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_10_io_out_x'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_10_io_out_y'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_10_io_out_a'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_11_clock'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_11_reset'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_11_io_in_x'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_11_io_in_y'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_11_io_in_a'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_11_io_out_x'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_11_io_out_y'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_11_io_out_a'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_12_clock'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_12_reset'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_12_io_in_x'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_12_io_in_y'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_12_io_in_a'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_12_io_out_x'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_12_io_out_y'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_12_io_out_a'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_13_clock'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_13_reset'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_13_io_in_x'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_13_io_in_y'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_13_io_in_a'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_13_io_out_x'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_13_io_out_y'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_13_io_out_a'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_14_clock'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_14_reset'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_14_io_in_x'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_14_io_in_y'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_14_io_in_a'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_14_io_out_x'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_14_io_out_y'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/a'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/_GEN_2'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/_GEN_6'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/CordicComputer_TB/uut/rotator_0_io_in_a'. 
+vsim -voptargs=+acc work.CordicComputer_TB
+# End time: 14:34:28 on Apr 25,2022, Elapsed time: 0:00:06
+# Errors: 140, Warnings: 0
+# vsim -voptargs="+acc" work.CordicComputer_TB 
+# Start time: 14:34:28 on Apr 25,2022
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.CordicComputer_TB(fast)
+# Loading work.CordicComputer(fast)
+# Loading work.Rotator(fast)
+# Loading work.Rotator_1(fast)
+# Loading work.Rotator_2(fast)
+# Loading work.Rotator_3(fast)
+# Loading work.Rotator_4(fast)
+# Loading work.Rotator_5(fast)
+# Loading work.Rotator_6(fast)
+# Loading work.Rotator_7(fast)
+# Loading work.Rotator_8(fast)
+# Loading work.Rotator_9(fast)
+# Loading work.Rotator_10(fast)
+# Loading work.Rotator_11(fast)
+# Loading work.Rotator_12(fast)
+# Loading work.Rotator_13(fast)
+# Loading work.Rotator_14(fast)
+# Loading work.Rotator_15(fast)
+add wave -position insertpoint  \
+sim:/CordicComputer_TB/W2 \
+sim:/CordicComputer_TB/clk \
+sim:/CordicComputer_TB/rstn \
+sim:/CordicComputer_TB/rst \
+sim:/CordicComputer_TB/io_in_a \
+sim:/CordicComputer_TB/io_out_s \
+sim:/CordicComputer_TB/io_out_c \
+sim:/CordicComputer_TB/sin \
+sim:/CordicComputer_TB/cos
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
+# Loading work.CordicComputer_TB(fast)
+# Loading work.CordicComputer(fast)
+# Loading work.Rotator(fast)
+# Loading work.Rotator_1(fast)
+# Loading work.Rotator_2(fast)
+# Loading work.Rotator_3(fast)
+# Loading work.Rotator_4(fast)
+# Loading work.Rotator_5(fast)
+# Loading work.Rotator_6(fast)
+# Loading work.Rotator_7(fast)
+# Loading work.Rotator_8(fast)
+# Loading work.Rotator_9(fast)
+# Loading work.Rotator_10(fast)
+# Loading work.Rotator_11(fast)
+# Loading work.Rotator_12(fast)
+# Loading work.Rotator_13(fast)
+# Loading work.Rotator_14(fast)
+# Loading work.Rotator_15(fast)
+run 1us
+# scaleDegree =      174763
+# 
+# Compile of Rotator.v was successful.
+# Compile of Rotator_TB.v was successful.
+# Compile of CordicComputer_TB.v was successful.
+# Compile of CordicComputer.v was successful.
+# 4 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.CordicComputer_TB(fast)
+# Loading work.CordicComputer(fast)
+# Loading work.Rotator(fast)
+# Loading work.Rotator_1(fast)
+# Loading work.Rotator_2(fast)
+# Loading work.Rotator_3(fast)
+# Loading work.Rotator_4(fast)
+# Loading work.Rotator_5(fast)
+# Loading work.Rotator_6(fast)
+# Loading work.Rotator_7(fast)
+# Loading work.Rotator_8(fast)
+# Loading work.Rotator_9(fast)
+# Loading work.Rotator_10(fast)
+# Loading work.Rotator_11(fast)
+# Loading work.Rotator_12(fast)
+# Loading work.Rotator_13(fast)
+# Loading work.Rotator_14(fast)
+# Loading work.Rotator_15(fast)
+run 1us
+# scaleDegree =       43691
+# 
+# Compile of Rotator.v was successful.
+# Compile of Rotator_TB.v was successful.
+# Compile of CordicComputer_TB.v was successful.
+# Compile of CordicComputer.v was successful.
+# 4 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.CordicComputer_TB(fast)
+# Loading work.CordicComputer(fast)
+# Loading work.Rotator(fast)
+# Loading work.Rotator_1(fast)
+# Loading work.Rotator_2(fast)
+# Loading work.Rotator_3(fast)
+# Loading work.Rotator_4(fast)
+# Loading work.Rotator_5(fast)
+# Loading work.Rotator_6(fast)
+# Loading work.Rotator_7(fast)
+# Loading work.Rotator_8(fast)
+# Loading work.Rotator_9(fast)
+# Loading work.Rotator_10(fast)
+# Loading work.Rotator_11(fast)
+# Loading work.Rotator_12(fast)
+# Loading work.Rotator_13(fast)
+# Loading work.Rotator_14(fast)
+# Loading work.Rotator_15(fast)
+run 1us
+# deg = 30.0, scaleDegree =       43691, cos = 0.154251, sin = -0.988032
+# 
+# deg = 60.0, scaleDegree =       87381, cos = -0.952413, sin = -0.304811
+# 
+# deg = 130.0, scaleDegree =      189326, cos = -0.367291, sin = -0.930106
+# 
+# deg = 200.0, scaleDegree =      291271, cos = 0.487188, sin = -0.873297
+# 
+# deg = 250.0, scaleDegree =      364089, cos = 0.240988, sin = -0.970528
+# 
+# deg = 300.0, scaleDegree =      436907, cos = -0.022097, sin = -0.999756
+# 
+# deg = 350.0, scaleDegree =      509724, cos = -0.283633, sin = -0.958933
+# 
+# deg = 50.0, scaleDegree =       72818, cos = 0.964966, sin = -0.262375
+# 
+# Compile of Rotator.v was successful.
+# Compile of Rotator_TB.v was successful.
+# Compile of CordicComputer_TB.v was successful.
+# Compile of CordicComputer.v was successful.
+# 4 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Error (suppressible): C:/Users/tongy/OneDrive/Hardware/Chisel/myprj/Cordic/sim/CordicComputer_TB.v(24): (vopt-7063) Failed to find 'DTOR' in hierarchical name 'DTOR'.
+#         Region: CordicComputer_TB
+# Optimization failed
+run 1us
+# No Design Loaded!
+# Compile of Rotator.v was successful.
+# Compile of Rotator_TB.v was successful.
+# Compile of CordicComputer_TB.v was successful.
+# Compile of CordicComputer.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.CordicComputer_TB
+# vsim -voptargs="+acc" work.CordicComputer_TB 
+# Start time: 14:34:28 on Apr 25,2022
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error (suppressible): C:/Users/tongy/OneDrive/Hardware/Chisel/myprj/Cordic/sim/CordicComputer_TB.v(24): (vopt-7063) Failed to find 'DTOR' in hierarchical name 'DTOR'.
+#         Region: CordicComputer_TB
+# Optimization failed
+# Error loading design
+# End time: 14:41:04 on Apr 25,2022, Elapsed time: 0:06:36
+# Errors: 145, Warnings: 0
+# Compile of Rotator.v was successful.
+# Compile of Rotator_TB.v was successful.
+# Compile of CordicComputer_TB.v was successful.
+# Compile of CordicComputer.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.CordicComputer_TB
+# vsim -voptargs="+acc" work.CordicComputer_TB 
+# Start time: 14:41:15 on Apr 25,2022
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error (suppressible): C:/Users/tongy/OneDrive/Hardware/Chisel/myprj/Cordic/sim/CordicComputer_TB.v(24): (vopt-7063) Failed to find 'M_PI' in hierarchical name 'M_PI'.
+#         Region: CordicComputer_TB
+# Optimization failed
+# Error loading design
+# End time: 14:41:16 on Apr 25,2022, Elapsed time: 0:00:01
+# Errors: 144, Warnings: 0
+# Compile of Rotator.v was successful.
+# Compile of Rotator_TB.v was successful.
+# Compile of CordicComputer_TB.v was successful.
+# Compile of CordicComputer.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.CordicComputer_TB
+# vsim -voptargs="+acc" work.CordicComputer_TB 
+# Start time: 14:41:25 on Apr 25,2022
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.CordicComputer_TB(fast)
+# Loading work.CordicComputer(fast)
+# Loading work.Rotator(fast)
+# Loading work.Rotator_1(fast)
+# Loading work.Rotator_2(fast)
+# Loading work.Rotator_3(fast)
+# Loading work.Rotator_4(fast)
+# Loading work.Rotator_5(fast)
+# Loading work.Rotator_6(fast)
+# Loading work.Rotator_7(fast)
+# Loading work.Rotator_8(fast)
+# Loading work.Rotator_9(fast)
+# Loading work.Rotator_10(fast)
+# Loading work.Rotator_11(fast)
+# Loading work.Rotator_12(fast)
+# Loading work.Rotator_13(fast)
+# Loading work.Rotator_14(fast)
+# Loading work.Rotator_15(fast)
+run 1us
+# deg = 30.0, scaleDegree =       43691, cos = 0.866025, sin = 0.500000
+# 
+# deg = 60.0, scaleDegree =       87381, cos = 0.500000, sin = 0.866025
+# 
+# deg = 130.0, scaleDegree =      189326, cos = -0.642788, sin = 0.766044
+# 
+# deg = 200.0, scaleDegree =      291271, cos = -0.939693, sin = -0.342020
+# 
+# deg = 250.0, scaleDegree =      364089, cos = -0.342020, sin = -0.939693
+# 
+# deg = 300.0, scaleDegree =      436907, cos = 0.500000, sin = -0.866025
+# 
+# deg = 350.0, scaleDegree =      509724, cos = 0.984808, sin = -0.173648
+# 
+# deg = 50.0, scaleDegree =       72818, cos = 0.642788, sin = 0.766044
+# 
+add wave -position insertpoint  \
+sim:/CordicComputer_TB/uut/clock \
+sim:/CordicComputer_TB/uut/reset \
+sim:/CordicComputer_TB/uut/io_in_a \
+sim:/CordicComputer_TB/uut/io_out_s \
+sim:/CordicComputer_TB/uut/io_out_c \
+sim:/CordicComputer_TB/uut/rotator_0_clock \
+sim:/CordicComputer_TB/uut/rotator_0_reset \
+sim:/CordicComputer_TB/uut/rotator_0_io_in_x \
+sim:/CordicComputer_TB/uut/rotator_0_io_in_y \
+sim:/CordicComputer_TB/uut/rotator_0_io_in_a \
+sim:/CordicComputer_TB/uut/rotator_0_io_out_x \
+sim:/CordicComputer_TB/uut/rotator_0_io_out_y \
+sim:/CordicComputer_TB/uut/rotator_0_io_out_a \
+sim:/CordicComputer_TB/uut/rotator_clock \
+sim:/CordicComputer_TB/uut/rotator_reset \
+sim:/CordicComputer_TB/uut/rotator_io_in_x \
+sim:/CordicComputer_TB/uut/rotator_io_in_y \
+sim:/CordicComputer_TB/uut/rotator_io_in_a \
+sim:/CordicComputer_TB/uut/rotator_io_out_x \
+sim:/CordicComputer_TB/uut/rotator_io_out_y \
+sim:/CordicComputer_TB/uut/rotator_io_out_a \
+sim:/CordicComputer_TB/uut/rotator_1_clock \
+sim:/CordicComputer_TB/uut/rotator_1_reset \
+sim:/CordicComputer_TB/uut/rotator_1_io_in_x \
+sim:/CordicComputer_TB/uut/rotator_1_io_in_y \
+sim:/CordicComputer_TB/uut/rotator_1_io_in_a \
+sim:/CordicComputer_TB/uut/rotator_1_io_out_x \
+sim:/CordicComputer_TB/uut/rotator_1_io_out_y \
+sim:/CordicComputer_TB/uut/rotator_1_io_out_a \
+sim:/CordicComputer_TB/uut/rotator_2_clock \
+sim:/CordicComputer_TB/uut/rotator_2_reset \
+sim:/CordicComputer_TB/uut/rotator_2_io_in_x \
+sim:/CordicComputer_TB/uut/rotator_2_io_in_y \
+sim:/CordicComputer_TB/uut/rotator_2_io_in_a \
+sim:/CordicComputer_TB/uut/rotator_2_io_out_x \
+sim:/CordicComputer_TB/uut/rotator_2_io_out_y \
+sim:/CordicComputer_TB/uut/rotator_2_io_out_a \
+sim:/CordicComputer_TB/uut/rotator_3_clock \
+sim:/CordicComputer_TB/uut/rotator_3_reset \
+sim:/CordicComputer_TB/uut/rotator_3_io_in_x \
+sim:/CordicComputer_TB/uut/rotator_3_io_in_y \
+sim:/CordicComputer_TB/uut/rotator_3_io_in_a \
+sim:/CordicComputer_TB/uut/rotator_3_io_out_x \
+sim:/CordicComputer_TB/uut/rotator_3_io_out_y \
+sim:/CordicComputer_TB/uut/rotator_3_io_out_a \
+sim:/CordicComputer_TB/uut/rotator_4_clock \
+sim:/CordicComputer_TB/uut/rotator_4_reset \
+sim:/CordicComputer_TB/uut/rotator_4_io_in_x \
+sim:/CordicComputer_TB/uut/rotator_4_io_in_y \
+sim:/CordicComputer_TB/uut/rotator_4_io_in_a \
+sim:/CordicComputer_TB/uut/rotator_4_io_out_x \
+sim:/CordicComputer_TB/uut/rotator_4_io_out_y \
+sim:/CordicComputer_TB/uut/rotator_4_io_out_a \
+sim:/CordicComputer_TB/uut/rotator_5_clock \
+sim:/CordicComputer_TB/uut/rotator_5_reset \
+sim:/CordicComputer_TB/uut/rotator_5_io_in_x \
+sim:/CordicComputer_TB/uut/rotator_5_io_in_y \
+sim:/CordicComputer_TB/uut/rotator_5_io_in_a \
+sim:/CordicComputer_TB/uut/rotator_5_io_out_x \
+sim:/CordicComputer_TB/uut/rotator_5_io_out_y \
+sim:/CordicComputer_TB/uut/rotator_5_io_out_a \
+sim:/CordicComputer_TB/uut/rotator_6_clock \
+sim:/CordicComputer_TB/uut/rotator_6_reset \
+sim:/CordicComputer_TB/uut/rotator_6_io_in_x \
+sim:/CordicComputer_TB/uut/rotator_6_io_in_y \
+sim:/CordicComputer_TB/uut/rotator_6_io_in_a \
+sim:/CordicComputer_TB/uut/rotator_6_io_out_x \
+sim:/CordicComputer_TB/uut/rotator_6_io_out_y \
+sim:/CordicComputer_TB/uut/rotator_6_io_out_a \
+sim:/CordicComputer_TB/uut/rotator_7_clock \
+sim:/CordicComputer_TB/uut/rotator_7_reset \
+sim:/CordicComputer_TB/uut/rotator_7_io_in_x \
+sim:/CordicComputer_TB/uut/rotator_7_io_in_y \
+sim:/CordicComputer_TB/uut/rotator_7_io_in_a \
+sim:/CordicComputer_TB/uut/rotator_7_io_out_x \
+sim:/CordicComputer_TB/uut/rotator_7_io_out_y \
+sim:/CordicComputer_TB/uut/rotator_7_io_out_a \
+sim:/CordicComputer_TB/uut/rotator_8_clock \
+sim:/CordicComputer_TB/uut/rotator_8_reset \
+sim:/CordicComputer_TB/uut/rotator_8_io_in_x \
+sim:/CordicComputer_TB/uut/rotator_8_io_in_y \
+sim:/CordicComputer_TB/uut/rotator_8_io_in_a \
+sim:/CordicComputer_TB/uut/rotator_8_io_out_x \
+sim:/CordicComputer_TB/uut/rotator_8_io_out_y \
+sim:/CordicComputer_TB/uut/rotator_8_io_out_a \
+sim:/CordicComputer_TB/uut/rotator_9_clock \
+sim:/CordicComputer_TB/uut/rotator_9_reset \
+sim:/CordicComputer_TB/uut/rotator_9_io_in_x \
+sim:/CordicComputer_TB/uut/rotator_9_io_in_y \
+sim:/CordicComputer_TB/uut/rotator_9_io_in_a \
+sim:/CordicComputer_TB/uut/rotator_9_io_out_x \
+sim:/CordicComputer_TB/uut/rotator_9_io_out_y \
+sim:/CordicComputer_TB/uut/rotator_9_io_out_a \
+sim:/CordicComputer_TB/uut/rotator_10_clock \
+sim:/CordicComputer_TB/uut/rotator_10_reset \
+sim:/CordicComputer_TB/uut/rotator_10_io_in_x \
+sim:/CordicComputer_TB/uut/rotator_10_io_in_y \
+sim:/CordicComputer_TB/uut/rotator_10_io_in_a \
+sim:/CordicComputer_TB/uut/rotator_10_io_out_x \
+sim:/CordicComputer_TB/uut/rotator_10_io_out_y \
+sim:/CordicComputer_TB/uut/rotator_10_io_out_a \
+sim:/CordicComputer_TB/uut/rotator_11_clock \
+sim:/CordicComputer_TB/uut/rotator_11_reset \
+sim:/CordicComputer_TB/uut/rotator_11_io_in_x \
+sim:/CordicComputer_TB/uut/rotator_11_io_in_y \
+sim:/CordicComputer_TB/uut/rotator_11_io_in_a \
+sim:/CordicComputer_TB/uut/rotator_11_io_out_x \
+sim:/CordicComputer_TB/uut/rotator_11_io_out_y \
+sim:/CordicComputer_TB/uut/rotator_11_io_out_a \
+sim:/CordicComputer_TB/uut/rotator_12_clock \
+sim:/CordicComputer_TB/uut/rotator_12_reset \
+sim:/CordicComputer_TB/uut/rotator_12_io_in_x \
+sim:/CordicComputer_TB/uut/rotator_12_io_in_y \
+sim:/CordicComputer_TB/uut/rotator_12_io_in_a \
+sim:/CordicComputer_TB/uut/rotator_12_io_out_x \
+sim:/CordicComputer_TB/uut/rotator_12_io_out_y \
+sim:/CordicComputer_TB/uut/rotator_12_io_out_a \
+sim:/CordicComputer_TB/uut/rotator_13_clock \
+sim:/CordicComputer_TB/uut/rotator_13_reset \
+sim:/CordicComputer_TB/uut/rotator_13_io_in_x \
+sim:/CordicComputer_TB/uut/rotator_13_io_in_y \
+sim:/CordicComputer_TB/uut/rotator_13_io_in_a \
+sim:/CordicComputer_TB/uut/rotator_13_io_out_x \
+sim:/CordicComputer_TB/uut/rotator_13_io_out_y \
+sim:/CordicComputer_TB/uut/rotator_13_io_out_a \
+sim:/CordicComputer_TB/uut/rotator_14_clock \
+sim:/CordicComputer_TB/uut/rotator_14_reset \
+sim:/CordicComputer_TB/uut/rotator_14_io_in_x \
+sim:/CordicComputer_TB/uut/rotator_14_io_in_y \
+sim:/CordicComputer_TB/uut/rotator_14_io_in_a \
+sim:/CordicComputer_TB/uut/rotator_14_io_out_x \
+sim:/CordicComputer_TB/uut/rotator_14_io_out_y \
+sim:/CordicComputer_TB/uut/x \
+sim:/CordicComputer_TB/uut/y \
+sim:/CordicComputer_TB/uut/a \
+sim:/CordicComputer_TB/uut/_a_T_2 \
+sim:/CordicComputer_TB/uut/_a_T_5 \
+sim:/CordicComputer_TB/uut/_x_T_8 \
+sim:/CordicComputer_TB/uut/_a_T_8 \
+sim:/CordicComputer_TB/uut/_a_T_11 \
+sim:/CordicComputer_TB/uut/_a_T_14 \
+sim:/CordicComputer_TB/uut/_a_T_17 \
+sim:/CordicComputer_TB/uut/_a_T_20 \
+sim:/CordicComputer_TB/uut/_GEN_2 \
+sim:/CordicComputer_TB/uut/_GEN_3 \
+sim:/CordicComputer_TB/uut/_GEN_4 \
+sim:/CordicComputer_TB/uut/_GEN_5 \
+sim:/CordicComputer_TB/uut/_GEN_6 \
+sim:/CordicComputer_TB/uut/_GEN_7 \
+sim:/CordicComputer_TB/uut/_GEN_8 \
+sim:/CordicComputer_TB/uut/_GEN_9 \
+sim:/CordicComputer_TB/uut/_GEN_10 \
+sim:/CordicComputer_TB/uut/_GEN_11 \
+sim:/CordicComputer_TB/uut/_GEN_12 \
+sim:/CordicComputer_TB/uut/_GEN_13 \
+sim:/CordicComputer_TB/uut/_GEN_14 \
+sim:/CordicComputer_TB/uut/_GEN_17 \
+sim:/CordicComputer_TB/uut/_GEN_20 \
+sim:/CordicComputer_TB/uut/_GEN_23 \
+sim:/CordicComputer_TB/uut/_GEN_24
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
+# Loading work.CordicComputer_TB(fast)
+# Loading work.CordicComputer(fast)
+# Loading work.Rotator(fast)
+# Loading work.Rotator_1(fast)
+# Loading work.Rotator_2(fast)
+# Loading work.Rotator_3(fast)
+# Loading work.Rotator_4(fast)
+# Loading work.Rotator_5(fast)
+# Loading work.Rotator_6(fast)
+# Loading work.Rotator_7(fast)
+# Loading work.Rotator_8(fast)
+# Loading work.Rotator_9(fast)
+# Loading work.Rotator_10(fast)
+# Loading work.Rotator_11(fast)
+# Loading work.Rotator_12(fast)
+# Loading work.Rotator_13(fast)
+# Loading work.Rotator_14(fast)
+# Loading work.Rotator_15(fast)
+run 1us
+# deg = 30.0, scaleDegree =       43691, cos = 0.866025, sin = 0.500000
+# 
+# deg = 60.0, scaleDegree =       87381, cos = 0.500000, sin = 0.866025
+# 
+# deg = 130.0, scaleDegree =      189326, cos = -0.642788, sin = 0.766044
+# 
+# deg = 200.0, scaleDegree =      291271, cos = -0.939693, sin = -0.342020
+# 
+# deg = 250.0, scaleDegree =      364089, cos = -0.342020, sin = -0.939693
+# 
+# deg = 300.0, scaleDegree =      436907, cos = 0.500000, sin = -0.866025
+# 
+# deg = 350.0, scaleDegree =      509724, cos = 0.984808, sin = -0.173648
+# 
+# deg = 50.0, scaleDegree =       72818, cos = 0.642788, sin = 0.766044
+# 
+# Compile of Rotator.v was successful.
+# Compile of Rotator_TB.v was successful.
+# Compile of CordicComputer_TB.v was successful.
+# Compile of CordicComputer.v was successful.
+# 4 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.CordicComputer_TB(fast)
+# Loading work.CordicComputer(fast)
+# Loading work.Rotator(fast)
+# Loading work.Rotator_1(fast)
+# Loading work.Rotator_2(fast)
+# Loading work.Rotator_3(fast)
+# Loading work.Rotator_4(fast)
+# Loading work.Rotator_5(fast)
+# Loading work.Rotator_6(fast)
+# Loading work.Rotator_7(fast)
+# Loading work.Rotator_8(fast)
+# Loading work.Rotator_9(fast)
+# Loading work.Rotator_10(fast)
+# Loading work.Rotator_11(fast)
+# Loading work.Rotator_12(fast)
+# Loading work.Rotator_13(fast)
+# Loading work.Rotator_14(fast)
+# Loading work.Rotator_15(fast)
+run 1us
+# deg = 30.0, scaleDegree =       43691, cos = 0.866025, sin = 0.500000
+# 
+# deg = 60.0, scaleDegree =       87381, cos = 0.500000, sin = 0.866025
+# 
+# deg = 130.0, scaleDegree =      189326, cos = -0.642788, sin = 0.766044
+# 
+# deg = 200.0, scaleDegree =      291271, cos = -0.939693, sin = -0.342020
+# 
+# deg = 250.0, scaleDegree =      364089, cos = -0.342020, sin = -0.939693
+# 
+# deg = 300.0, scaleDegree =      436907, cos = 0.500000, sin = -0.866025
+# 
+# deg = 350.0, scaleDegree =      509724, cos = 0.984808, sin = -0.173648
+# 
+# deg = 50.0, scaleDegree =       72818, cos = 0.642788, sin = 0.766044
+# 
+# Compile of Rotator.v was successful.
+# Compile of Rotator_TB.v was successful.
+# Compile of CordicComputer_TB.v was successful.
+# Compile of CordicComputer.v was successful.
+# 4 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.CordicComputer_TB(fast)
+# Loading work.CordicComputer(fast)
+# Loading work.Rotator(fast)
+# Loading work.Rotator_1(fast)
+# Loading work.Rotator_2(fast)
+# Loading work.Rotator_3(fast)
+# Loading work.Rotator_4(fast)
+# Loading work.Rotator_5(fast)
+# Loading work.Rotator_6(fast)
+# Loading work.Rotator_7(fast)
+# Loading work.Rotator_8(fast)
+# Loading work.Rotator_9(fast)
+# Loading work.Rotator_10(fast)
+# Loading work.Rotator_11(fast)
+# Loading work.Rotator_12(fast)
+# Loading work.Rotator_13(fast)
+# Loading work.Rotator_14(fast)
+# Loading work.Rotator_15(fast)
+run 500ns
+# deg = 30.0, scaleDegree =       43691, cos = 0.866025, sin = 0.500000
+# 
+# deg = 60.0, scaleDegree =       87381, cos = 0.500000, sin = 0.866025
+# 
+# deg = 130.0, scaleDegree =      189326, cos = -0.642788, sin = 0.766044
+# 
+# deg = 200.0, scaleDegree =      291271, cos = -0.939693, sin = -0.342020
+# 
+# deg = 250.0, scaleDegree =      364089, cos = -0.342020, sin = -0.939693
+# 
+# deg = 300.0, scaleDegree =      436907, cos = 0.500000, sin = -0.866025
+# 
+# deg = 350.0, scaleDegree =      509724, cos = 0.984808, sin = -0.173648
+# 
+# deg = 50.0, scaleDegree =       72818, cos = 0.642788, sin = 0.766044
+# 
+# Compile of Rotator.v was successful.
+# Compile of Rotator_TB.v was successful.
+# Compile of CordicComputer_TB.v failed with 3 errors.
+# Compile of CordicComputer.v was successful.
+# 4 compiles, 1 failed with 3 errors.
+# Compile of Rotator.v was successful.
+# Compile of Rotator_TB.v was successful.
+# Compile of CordicComputer_TB.v failed with 2 errors.
+# Compile of CordicComputer.v was successful.
+# 4 compiles, 1 failed with 2 errors.
+# Compile of Rotator.v was successful.
+# Compile of Rotator_TB.v was successful.
+# Compile of CordicComputer_TB.v failed with 1 errors.
+# Compile of CordicComputer.v was successful.
+# 4 compiles, 1 failed with 1 error.
+# Compile of Rotator.v was successful.
+# Compile of Rotator_TB.v was successful.
+# Compile of CordicComputer_TB.v was successful.
+# Compile of CordicComputer.v was successful.
+# 4 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.CordicComputer_TB(fast)
+# Loading work.CordicComputer(fast)
+# Loading work.Rotator(fast)
+# Loading work.Rotator_1(fast)
+# Loading work.Rotator_2(fast)
+# Loading work.Rotator_3(fast)
+# Loading work.Rotator_4(fast)
+# Loading work.Rotator_5(fast)
+# Loading work.Rotator_6(fast)
+# Loading work.Rotator_7(fast)
+# Loading work.Rotator_8(fast)
+# Loading work.Rotator_9(fast)
+# Loading work.Rotator_10(fast)
+# Loading work.Rotator_11(fast)
+# Loading work.Rotator_12(fast)
+# Loading work.Rotator_13(fast)
+# Loading work.Rotator_14(fast)
+# Loading work.Rotator_15(fast)
+run 
+# deg = 0.0, scaleDegree =           0, cos = 1.000000, sin = 0.000000
+# 
+run 500ns
+# deg = 30.0, scaleDegree =       43691, cos = 0.866025, sin = 0.500000
+# 
+# deg = 60.0, scaleDegree =       87381, cos = 0.500000, sin = 0.866025
+# 
+# deg = 90.0, scaleDegree =      131072, cos = 0.000000, sin = 1.000000
+# 
+# deg = 120.0, scaleDegree =      174763, cos = -0.500000, sin = 0.866025
+# 
+# deg = 150.0, scaleDegree =      218453, cos = -0.866025, sin = 0.500000
+# 
+# deg = 180.0, scaleDegree =      262144, cos = -1.000000, sin = 0.000000
+# 
+# deg = 210.0, scaleDegree =      305835, cos = -0.866025, sin = -0.500000
+# 
+# ** Note: $stop    : C:/Users/tongy/OneDrive/Hardware/Chisel/myprj/Cordic/sim/CordicComputer_TB.v(42)
+#    Time: 360 ns  Iteration: 1  Instance: /CordicComputer_TB
+# Break in Module CordicComputer_TB at C:/Users/tongy/OneDrive/Hardware/Chisel/myprj/Cordic/sim/CordicComputer_TB.v line 42
+# Compile of Rotator.v was successful.
+# Compile of Rotator_TB.v was successful.
+# Compile of CordicComputer_TB.v was successful.
+# Compile of CordicComputer.v was successful.
+# 4 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.CordicComputer_TB(fast)
+# Loading work.CordicComputer(fast)
+# Loading work.Rotator(fast)
+# Loading work.Rotator_1(fast)
+# Loading work.Rotator_2(fast)
+# Loading work.Rotator_3(fast)
+# Loading work.Rotator_4(fast)
+# Loading work.Rotator_5(fast)
+# Loading work.Rotator_6(fast)
+# Loading work.Rotator_7(fast)
+# Loading work.Rotator_8(fast)
+# Loading work.Rotator_9(fast)
+# Loading work.Rotator_10(fast)
+# Loading work.Rotator_11(fast)
+# Loading work.Rotator_12(fast)
+# Loading work.Rotator_13(fast)
+# Loading work.Rotator_14(fast)
+# Loading work.Rotator_15(fast)
+run 600ns
+# deg = 0.0, scaleDegree =           0, cos = 1.000000, sin = 0.000000
+# 
+# deg = 30.0, scaleDegree =       43691, cos = 0.866025, sin = 0.500000
+# 
+# deg = 60.0, scaleDegree =       87381, cos = 0.500000, sin = 0.866025
+# 
+# deg = 90.0, scaleDegree =      131072, cos = 0.000000, sin = 1.000000
+# 
+# deg = 120.0, scaleDegree =      174763, cos = -0.500000, sin = 0.866025
+# 
+# deg = 150.0, scaleDegree =      218453, cos = -0.866025, sin = 0.500000
+# 
+# deg = 180.0, scaleDegree =      262144, cos = -1.000000, sin = 0.000000
+# 
+# deg = 210.0, scaleDegree =      305835, cos = -0.866025, sin = -0.500000
+# 
+# Compile of Rotator.v was successful.
+# Compile of Rotator_TB.v was successful.
+# Compile of CordicComputer_TB.v was successful.
+# Compile of CordicComputer.v was successful.
+# 4 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.CordicComputer_TB(fast)
+# Loading work.CordicComputer(fast)
+# Loading work.Rotator(fast)
+# Loading work.Rotator_1(fast)
+# Loading work.Rotator_2(fast)
+# Loading work.Rotator_3(fast)
+# Loading work.Rotator_4(fast)
+# Loading work.Rotator_5(fast)
+# Loading work.Rotator_6(fast)
+# Loading work.Rotator_7(fast)
+# Loading work.Rotator_8(fast)
+# Loading work.Rotator_9(fast)
+# Loading work.Rotator_10(fast)
+# Loading work.Rotator_11(fast)
+# Loading work.Rotator_12(fast)
+# Loading work.Rotator_13(fast)
+# Loading work.Rotator_14(fast)
+# Loading work.Rotator_15(fast)
+run 400ns
+# deg = 0.0, scaleDegree =           0, cos = 1.000000, sin = 0.000000
+# 
+# deg = 30.0, scaleDegree =       43691, cos = 0.866025, sin = 0.500000
+# 
+# deg = 60.0, scaleDegree =       87381, cos = 0.500000, sin = 0.866025
+# 
+# deg = 90.0, scaleDegree =      131072, cos = 0.000000, sin = 1.000000
+# 
+# deg = 120.0, scaleDegree =      174763, cos = -0.500000, sin = 0.866025
+# 
+# deg = 150.0, scaleDegree =      218453, cos = -0.866025, sin = 0.500000
+# 
+# deg = 180.0, scaleDegree =      262144, cos = -1.000000, sin = 0.000000
+# 
+# deg = 210.0, scaleDegree =      305835, cos = -0.866025, sin = -0.500000
+# 
+# Compile of Rotator.v was successful.
+# Compile of Rotator_TB.v was successful.
+# Compile of CordicComputer_TB.v was successful.
+# Compile of CordicComputer.v was successful.
+# 4 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.CordicComputer_TB(fast)
+# Loading work.CordicComputer(fast)
+# Loading work.Rotator(fast)
+# Loading work.Rotator_1(fast)
+# Loading work.Rotator_2(fast)
+# Loading work.Rotator_3(fast)
+# Loading work.Rotator_4(fast)
+# Loading work.Rotator_5(fast)
+# Loading work.Rotator_6(fast)
+# Loading work.Rotator_7(fast)
+# Loading work.Rotator_8(fast)
+# Loading work.Rotator_9(fast)
+# Loading work.Rotator_10(fast)
+# Loading work.Rotator_11(fast)
+# Loading work.Rotator_12(fast)
+# Loading work.Rotator_13(fast)
+# Loading work.Rotator_14(fast)
+# Loading work.Rotator_15(fast)
+run 400ns
+# deg = 0.0, scaleDegree =           0, cos = 1.000000, sin = 0.000000
+# 
+# deg = 45.0, scaleDegree =       65536, cos = 0.707107, sin = 0.707107
+# 
+# deg = 90.0, scaleDegree =      131072, cos = 0.000000, sin = 1.000000
+# 
+# deg = 135.0, scaleDegree =      196608, cos = -0.707107, sin = 0.707107
+# 
+# deg = 180.0, scaleDegree =      262144, cos = -1.000000, sin = 0.000000
+# 
+# deg = 225.0, scaleDegree =      327680, cos = -0.707107, sin = -0.707107
+# 
+# deg = 270.0, scaleDegree =      393216, cos = -0.000000, sin = -1.000000
+# 
+# deg = 315.0, scaleDegree =      458752, cos = 0.707107, sin = -0.707107
+# 
+# End time: 15:30:52 on Apr 25,2022, Elapsed time: 0:49:27
+# Errors: 144, Warnings: 0

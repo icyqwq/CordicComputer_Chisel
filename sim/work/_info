@@ -1,0 +1,477 @@
+m255
+K4
+z2
+!s11f vlog 2019.2 2019.04, Apr 17 2019
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/tongy/Documents/GitHub/verilog_cordic_core/sim
+T_opt
+!s110 1650595076
+V]kSa4D9k:M`V`EMFLzmbN3
+04 10 4 work Rotator_TB fast 0
+=4-a8a1596cf191-62621504-1ac-5644
+Z1 o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;2019.2;69
+R0
+T_opt1
+!s110 1650868462
+Vg`PGUJmElkEHB<j8djl@L0
+04 14 4 work CordicComputer fast 0
+=1-a8a1596cf191-626640ee-1e4-1c94
+R1
+R2
+n@_opt1
+R3
+R0
+T_opt2
+!s110 1650879294
+VQg4C_GC]8V0DiUB[S1dFd2
+04 17 4 work CordicComputer_TB fast 0
+=3-a8a1596cf191-62666b3e-ed-5b2c
+R1
+R2
+n@_opt2
+R3
+vCordicComputer
+Z4 !s110 1650879290
+!i10b 1
+!s100 eFRFd[1P^WiRDBDcWLY;j2
+!s11b P5iG^eL]FSAkABk4SkeDk1
+I[J@A9[f7GSi50b0922Rci3
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 dC:/Users/tongy/OneDrive/Hardware/Chisel/myprj/Cordic/sim
+Z7 w1650878985
+Z8 8C:/Users/tongy/OneDrive/Hardware/Chisel/myprj/Cordic/verilog/CordicComputer.v
+Z9 FC:/Users/tongy/OneDrive/Hardware/Chisel/myprj/Cordic/verilog/CordicComputer.v
+L0 1740
+Z10 OL;L;2019.2;69
+r1
+!s85 0
+31
+Z11 !s108 1650879290.000000
+Z12 !s107 C:/Users/tongy/OneDrive/Hardware/Chisel/myprj/Cordic/verilog/CordicComputer.v|
+Z13 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/tongy/OneDrive/Hardware/Chisel/myprj/Cordic/verilog/CordicComputer.v|
+!i113 0
+Z14 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+n@cordic@computer
+vCordicComputer_TB
+R4
+!i10b 1
+!s100 MMz@CL@ID7KRhE?kIR1n_0
+!s11b <Ml^J1MKc>?fAiLb4T8Vh1
+I99AM3TV?7GCmzecYfS2D[3
+R5
+R6
+w1650879286
+8C:/Users/tongy/OneDrive/Hardware/Chisel/myprj/Cordic/sim/CordicComputer_TB.v
+FC:/Users/tongy/OneDrive/Hardware/Chisel/myprj/Cordic/sim/CordicComputer_TB.v
+L0 2
+R10
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/tongy/OneDrive/Hardware/Chisel/myprj/Cordic/sim/CordicComputer_TB.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/tongy/OneDrive/Hardware/Chisel/myprj/Cordic/sim/CordicComputer_TB.v|
+!i113 0
+R14
+R2
+n@cordic@computer_@t@b
+vRotator
+R4
+!i10b 1
+!s100 WAbzSfQTG4g:?f52jZ:4S0
+!s11b mb>YSG<?U:f:zkmdEVZbX2
+I2dQOe72;ioK@a3?d_31A>0
+R5
+R6
+R7
+R8
+R9
+L0 1
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R2
+n@rotator
+vRotator_1
+R4
+!i10b 1
+!s100 5[<7ljW7I_j:;NZD:lDd52
+!s11b 03lZBikGDGYHI7ilOQZaI3
+IO4FzPh0[AO^o;jzo5?EH]1
+R5
+R6
+R7
+R8
+R9
+L0 107
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R2
+n@rotator_1
+vRotator_10
+R4
+!i10b 1
+!s100 CO24T;<YYRT9Umzg;Bl0T0
+!s11b 1bSjDoo<Qj?<bZT<]iEWY0
+I5NKWGlM0L1R`2S27jE;9R2
+R5
+R6
+R7
+R8
+R9
+L0 1097
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R2
+n@rotator_10
+vRotator_11
+R4
+!i10b 1
+!s100 Q6L:B5VaCm=Ia741Y]49j3
+!s11b ;T]<:OMhF:Z;7OX^HhCEg0
+IN6CaLIZ]NJz[RC93IH>Jb2
+R5
+R6
+R7
+R8
+R9
+L0 1207
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R2
+n@rotator_11
+vRotator_12
+R4
+!i10b 1
+!s100 fPGLWKgAUcIJW5o4LGLBZ0
+!s11b jXGA9b60<56V[R5b<LSh33
+IfKmjI74IzIT0STSI<n@zn1
+R5
+R6
+R7
+R8
+R9
+L0 1317
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R2
+n@rotator_12
+vRotator_13
+R4
+!i10b 1
+!s100 aY>fnK0f1iGVa9KQT[AM63
+!s11b Ua7Z4]X2^XMJdi_i8i@G<0
+II2>E01=hn2f?7dQdfP@=K3
+R5
+R6
+R7
+R8
+R9
+L0 1427
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R2
+n@rotator_13
+vRotator_14
+R4
+!i10b 1
+!s100 >h0dfz@L[A@22V0P@<;gC0
+!s11b ;2^;fKQMmIm>QjgCTfUnN3
+I:o@bMdSb2Hg7ToFHQR5J31
+R5
+R6
+R7
+R8
+R9
+L0 1537
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R2
+n@rotator_14
+vRotator_15
+R4
+!i10b 1
+!s100 Qi]nWOWLlWglZ0]k:;gNK3
+!s11b 6CHi3hPkc?<O2L9XD=e=n3
+IJ^fGR3^mNAT[BM[j@<UK93
+R5
+R6
+R7
+R8
+R9
+L0 1647
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R2
+n@rotator_15
+vRotator_2
+R4
+!i10b 1
+!s100 EWKO^@>OjM6FE6hCHCzP:2
+!s11b Zd9:_AOUh1@n9FGJP8Vbk1
+If[b6j58^ZW]zJU`k1LG_A0
+R5
+R6
+R7
+R8
+R9
+L0 217
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R2
+n@rotator_2
+vRotator_3
+R4
+!i10b 1
+!s100 ijD8R]6gSIl^8S;Ycd;0W1
+!s11b U1d>ZVB_nm:cR=DE9:hC50
+IH=^Xi`AXND9fIKjk3QBA?3
+R5
+R6
+R7
+R8
+R9
+L0 327
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R2
+n@rotator_3
+vRotator_4
+R4
+!i10b 1
+!s100 [WP[n;1;R<Im6[]OcmWRe1
+!s11b 3JJM8z4U:bCRFRRVZCIU30
+IP^;dQ2WcTCa29Lh9P]K5i3
+R5
+R6
+R7
+R8
+R9
+L0 437
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R2
+n@rotator_4
+vRotator_5
+R4
+!i10b 1
+!s100 P=geCRX2:5lOChnU;7fS=0
+!s11b OmCoWWkkYd=:NL8<Z6<8X3
+IE@kF6ANz<l=Ifo;jEQO:13
+R5
+R6
+R7
+R8
+R9
+L0 547
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R2
+n@rotator_5
+vRotator_6
+R4
+!i10b 1
+!s100 zReejPQhH6T<QeZ<o1nQ>2
+!s11b Dz7=T17KamG3m]@C2W5mX0
+I8?[odQ:28AY[2ko]mNcL>1
+R5
+R6
+R7
+R8
+R9
+L0 657
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R2
+n@rotator_6
+vRotator_7
+R4
+!i10b 1
+!s100 1c70i2SROEOPfN>X?g7:f0
+!s11b FXSV924:]e6ojmNojmAHV1
+I<ZWhK]Ro:BK>:[JU<3NMR1
+R5
+R6
+R7
+R8
+R9
+L0 767
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R2
+n@rotator_7
+vRotator_8
+R4
+!i10b 1
+!s100 >=[EhbY]ZW_a_YnV_102>2
+!s11b 5O_?Ef_mobh2^o^K@iXnl3
+IFKQJ:i@f=l_dMj>z^=?UT1
+R5
+R6
+R7
+R8
+R9
+L0 877
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R2
+n@rotator_8
+vRotator_9
+R4
+!i10b 1
+!s100 =`V<3Sl^oRdmIR_N0R7H91
+!s11b kTnPc>BaAIjSKXLF0Ez<V1
+Iz]SI^C7;3YRnG]TI>:nkB3
+R5
+R6
+R7
+R8
+R9
+L0 987
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R2
+n@rotator_9
+vRotator_TB
+R4
+!i10b 1
+!s100 0BNP2DECOTRd:Um?`h5;R0
+!s11b f@hCo1ciz[E9OCRe4AV=b2
+IK<Ja[2WBPnKW<Z2Y]ghoP2
+R5
+R6
+w1650595211
+8C:/Users/tongy/OneDrive/Hardware/Chisel/myprj/Cordic/sim/Rotator_TB.v
+FC:/Users/tongy/OneDrive/Hardware/Chisel/myprj/Cordic/sim/Rotator_TB.v
+L0 2
+R10
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/tongy/OneDrive/Hardware/Chisel/myprj/Cordic/sim/Rotator_TB.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/tongy/OneDrive/Hardware/Chisel/myprj/Cordic/sim/Rotator_TB.v|
+!i113 0
+R14
+R2
+n@rotator_@t@b

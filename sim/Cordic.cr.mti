@@ -1,0 +1,45 @@
+C:/Users/tongy/OneDrive/Hardware/Chisel/myprj/Cordic/sim/CordicComputer_TB.v {1 {vlog -work work -vopt -stats=none C:/Users/tongy/OneDrive/Hardware/Chisel/myprj/Cordic/sim/CordicComputer_TB.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module CordicComputer_TB
+
+Top level modules:
+	CordicComputer_TB
+
+} {} {}} C:/Users/tongy/OneDrive/Hardware/Chisel/myprj/Cordic/sim/Rotator_TB.v {1 {vlog -work work -vopt -stats=none C:/Users/tongy/OneDrive/Hardware/Chisel/myprj/Cordic/sim/Rotator_TB.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module Rotator_TB
+
+Top level modules:
+	Rotator_TB
+
+} {} {}} C:/Users/tongy/OneDrive/Hardware/Chisel/myprj/Cordic/verilog/CordicComputer.v {1 {vlog -work work -vopt -stats=none C:/Users/tongy/OneDrive/Hardware/Chisel/myprj/Cordic/verilog/CordicComputer.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module Rotator
+-- Compiling module Rotator_1
+-- Compiling module Rotator_2
+-- Compiling module Rotator_3
+-- Compiling module Rotator_4
+-- Compiling module Rotator_5
+-- Compiling module Rotator_6
+-- Compiling module Rotator_7
+-- Compiling module Rotator_8
+-- Compiling module Rotator_9
+-- Compiling module Rotator_10
+-- Compiling module Rotator_11
+-- Compiling module Rotator_12
+-- Compiling module Rotator_13
+-- Compiling module Rotator_14
+-- Compiling module Rotator_15
+-- Compiling module CordicComputer
+
+Top level modules:
+	CordicComputer
+
+} {} {}} C:/Users/tongy/OneDrive/Hardware/Chisel/myprj/Cordic/verilog/Rotator.v {1 {vlog -work work -vopt -stats=none C:/Users/tongy/OneDrive/Hardware/Chisel/myprj/Cordic/verilog/Rotator.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module Rotator
+
+Top level modules:
+	Rotator
+
+} {} {}}
